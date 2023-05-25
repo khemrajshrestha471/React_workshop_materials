@@ -23,3 +23,6 @@ const IncNum = () => {
 }
 
 export default App 
+
+// Why is useState imported in {} in React 
+// Default React object is exported as a default and other modules are exported as named modules.
