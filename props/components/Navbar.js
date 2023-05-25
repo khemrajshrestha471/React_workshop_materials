@@ -29,4 +29,9 @@ const Navbar = (props) => {
   )
 }
 
+Navbar.defaultProps = {
+    home: "Home here",
+    about: "About here"
+}
+
 export default Navbar
