@@ -7,10 +7,12 @@ const App = () => {
 
   const [counter, setCount] = useState(1);
 
-  // counter holds resent values where as setCount holds updated value
+
+  // setcounter holds updated value and throught counter it render in the web page
 
 
 const IncNum = () => {
+  // setCount(5);
   setCount(counter * 2);
 }
 
@@ -23,10 +25,3 @@ const IncNum = () => {
 }
 
 export default App 
-
-// Why is useState imported in {} in React 
-// Default React object is exported as a default and other modules are exported as named modules.
-
-
-// if we create any component and at last we write "export {Navbar}" insted of "export default Navbar" then we should import in another file as 
-// "import {Navbar} from ../path"
